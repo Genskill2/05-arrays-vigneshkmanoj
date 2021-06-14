@@ -9,5 +9,5 @@ int max(int z[],int count)
       z[0]=z[i];
     }
   }
-  printf("%i",z[0]);
+  return z[0];
 }
