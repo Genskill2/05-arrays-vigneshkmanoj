@@ -50,3 +50,17 @@
   }
   return value;
   }
+int factors(int n, int a[])
+{
+int k=0;
+for(int i=2;n!=1;i++)
+{
+while(n%i==0)
+{
+a[k]=i;
+n=n/i;
+k++;
+}
+}
+return k;
+}
