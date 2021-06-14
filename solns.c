@@ -2,13 +2,12 @@
 #include <stdio.h>
 int max(int z[],int count)
 {
-  count=sizeof(z);
   for(int i=0;i<count;i++)
   {
-    if(z[0]<z[i+1])
+    if(z[0]<z[i])
     {
       z[0]=z[i];
     }
   }
-  printf("%d",z[0]);
+  printf("%i",z[0]);
 }
