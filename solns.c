@@ -2,7 +2,7 @@
 #include <stdio.h>
 int max(int z[],int count)
 {
-  for(int i=0;i<count;i++)
+  for(int i=0;i<count;++i)
   {
     if(z[0]<z[i])
     {
